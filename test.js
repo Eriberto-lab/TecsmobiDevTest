@@ -49,41 +49,6 @@ const menuTree = [
   },
 ];
 
-//   Levando em consideração o array acima, escreva uma função que deve receber o ID como parâmetro de entrada e retornar um novo array com o menu selecionado e os sub menus (obs: usar 'menuSupId' como referência entre os menus e submenus)
-
-//   Casos de teste:
-
-//   1 - ao chamar a função passando o id 'home' deve retornar apenas o objeto referente ao home:
-//   [
-//     {
-//        id: 'home',
-//        label: 'Página Inicial',
-//        link: '/',
-//        menuSupId: null
-//     }
-//   ]
-
-//   2 - ao passar 'register' deve retornar o menu e TODOS os filhos, incluindo os subníveis:
-//   [
-//     { id: 'register', ... },
-//     { id: 'car', ... },
-//     { id: 'store', ... },
-//     { id: 'internalStore', ... },
-//     { id: 'externalStore', ... }
-//   ]
-
-//   3 - ao passar 'store' deve retornar:
-//   [
-//     { id: 'store', ... },
-//     { id: 'internalStore', ... },
-//     { id: 'externalStore', ... }
-//   ]
-
-//   4 - ao passar um id inválido deve retornar um array vazio:
-//   []
-//   teste dev.txt
-//   Exibindo teste dev.txt…
-
 const returnMenu = (menu) => {
   switch (menu) {
     case "home":
