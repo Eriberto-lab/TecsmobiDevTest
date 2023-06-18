@@ -1,0 +1,18 @@
+{
+  "name": "tecsmobi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "jest": {
+    "rootDir": "./test/"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
